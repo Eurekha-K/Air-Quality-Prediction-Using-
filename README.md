@@ -13,7 +13,7 @@ Feature Engineering: Create additional features if necessary, such as time-based
 
 Data Formatting: Structure the data into a Pandas DataFrame with a 'ds' column for dates and a 'y' column for the target variable (e.g., PM2.5).
 
-Building the Prophet Model
+# Building the Prophet Model
 
 Import Prophet: Import the Prophet library from the fbprophet package.
 
@@ -23,7 +23,7 @@ Fit the Model: Fit the Prophet model to the prepared data.
 
 Make Predictions: Use the fitted model to generate future predictions.
 
-Incorporating External Regressors
+# Incorporating External Regressors
 
 Prophet allows for the inclusion of external regressors to improve prediction accuracy. Consider adding relevant features like:
 
